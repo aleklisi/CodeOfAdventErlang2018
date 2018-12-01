@@ -5,7 +5,7 @@ To run solution for day one:
 
 `erl`
 
-`c("./solutions/day1.erl")`
+`c("./solutions/day1.erl").`
 
 `day1:solve().`
 
