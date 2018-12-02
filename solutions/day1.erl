@@ -11,10 +11,10 @@ process_lines(Device, Acc) ->
     case io:get_line(Device, "") of
         eof  -> Acc;
         Line ->
-            process_lines(Device, Acc + pase_line(Line))
+            process_lines(Device, Acc + process_line(Line))
     end.
 
-pase_line(Line) ->  
+process_line(Line) ->  
     StringNumber = lists:droplast(Line),
     {Number, _} = string:to_integer(StringNumber),
     Number.

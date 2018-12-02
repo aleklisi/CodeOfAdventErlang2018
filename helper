@@ -1,0 +1,3 @@
+cd("C:/Users/sebac/Documents/GitHub/CodeOfAdventErlang2018").
+c("./solutions/day1part2.erl").
+day1part2:solve().
